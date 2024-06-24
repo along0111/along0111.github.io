@@ -1,0 +1,53 @@
+{
+  "description": "payment doc",
+  "extension": null,
+  "generator": "site",
+  "isbn": "",
+  "links": {
+    "sharing": {
+      "all": null,
+      "facebook": null,
+      "google": null,
+      "twitter": null,
+      "weibo": null
+    },
+    "sidebar": {}
+  },
+  "output": null,
+  "pdf": {
+    "fontSize": 12,
+    "footerTemplate": null,
+    "headerTemplate": null,
+    "margin": {
+      "bottom": 36,
+      "left": 62,
+      "right": 62,
+      "top": 36
+    },
+    "pageNumbers": false,
+    "paperSize": "a4"
+  },
+  "plugins" : [
+    "code",
+    "anchor-navigation-ex",
+    "klipse"
+  ],
+  "pluginsConfig": {
+    "anchor-navigation-ex": {
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right",
+      "multipleH1": false,
+      "multipleH2": false,
+      "multipleH3": false,
+      "multipleH4": false,
+      "showLevelIcon": false,
+      "showLevel": false
+    }
+  },
+  "styles": {
+    "website": "styles/customize.css"
+  },
+  "title": "支付说明文档",
+  "variables": {}
+}
